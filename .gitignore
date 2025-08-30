@@ -1,0 +1,26 @@
+# WordPress core
+/wp-admin/
+/wp-includes/
+
+# Cache & backups
+/wp-content/cache/
+/wp-content/backups/
+/wp-content/upgrade/
+
+# Temporary files
+*.log
+*.sql
+*.zip
+*.tar.gz
+*.tmp
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE files
+.vscode/
+.idea/
+
+# Sensitive config
+wp-config.php
