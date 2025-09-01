@@ -1,26 +1,45 @@
 # WordPress core
 /wp-admin/
 /wp-includes/
+/index.php
+/license.txt
+/readme.html
+/wp-activate.php
+/wp-blog-header.php
+/wp-comments-post.php
+/wp-config-sample.php
+/wp-cron.php
+/wp-links-opml.php
+/wp-load.php
+/wp-login.php
+/wp-mail.php
+/wp-settings.php
+/wp-signup.php
+/wp-trackback.php
+/xmlrpc.php
 
-# Cache & backups
-/wp-content/cache/
-/wp-content/backups/
-/wp-content/upgrade/
+# Uploads
+/wp-content/uploads/
+/wp-content/blogs.dir/
 
-# Temporary files
-*.log
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# Database
 *.sql
 *.zip
-*.tar.gz
-*.tmp
 
-# System files
+# Logs
+*.log
+
+# OS generated files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
-
-# Editor/IDE files
-.vscode/
-.idea/
-
-# Sensitive config
-wp-config.php
