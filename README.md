@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-    ![Uploading 1.png…]()
-=======
 ![Logo](./images/1.png)
 ![Logo](./images/2.png)
 ![Logo](./images/3.png)
@@ -13,4 +10,3 @@
 ![Logo](./images/8.png)
 
 ![Logo](./images/9.png)
->>>>>>> 9f12080 (add  image)
